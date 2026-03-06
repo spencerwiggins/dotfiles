@@ -111,3 +111,14 @@ export NVM_DIR="$HOME/.nvm"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Added by Windsurf
+export PATH="/Users/cn100344/.codeium/windsurf/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/cn100344/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
