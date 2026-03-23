@@ -122,3 +122,5 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+[ -f "/Users/cn100344/.ghcup/env" ] && . "/Users/cn100344/.ghcup/env" # ghcup-env
